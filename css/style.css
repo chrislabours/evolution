@@ -185,7 +185,8 @@ p {
 }
 
 #who .who-img {
-  background: url('../img/people.jpg') no-repeat center center/cover;
+  background: url('../img/people.jpg') no-repeat center center/90%;
+  background-color: #333;
 }
 
 /* Section: Clients */
@@ -204,9 +205,9 @@ p {
   display: flex;
 }
 
-#contact img{
-  width: 60vw;
-  height: 100%;
+#contact .contact-img{
+  flex: 2;
+  background: url('../img/boulder.jpg') no-repeat center center/cover;
 }
 
 #contact img, #contact .contact-form {
